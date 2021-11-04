@@ -71,7 +71,7 @@ if (special === true) {
 
 }
 
-// empty string variable for the for loop below
+// empty string variable
 var randomPasswordGenerated = "";
 
 // to make sure characters are added to the password
@@ -80,7 +80,7 @@ randomPasswordGenerated += minimumLowerCases;
 randomPasswordGenerated += minimumUpperCases;
 randomPasswordGenerated += minimumSpecialCharacters;
 
-// loop getting random characters
+// loop 
 for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
 
   // check what type of characters we want --> verify
