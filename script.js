@@ -85,22 +85,22 @@ for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
 
   // check what type of characters we want --> verify
   if(numbers === true && randomPasswordGenerated.length < passwordLength) {
-    var randomNumberPicked = functionArray.getNumbers(); // ---> 4
+    var randomNumberPicked = functionArray.getNumbers(); 
     randomPasswordGenerated+=randomNumberPicked
   }
 
   if(lowerCases === true && randomPasswordGenerated.length < passwordLength) {
-    var randomLowerCase = functionArray.getLowerCases(); // ---> 4
+    var randomLowerCase = functionArray.getLowerCases(); 
     randomPasswordGenerated+=randomLowerCase
   }
 
   if(upperCases === true && randomPasswordGenerated.length < passwordLength) {
-    var randomUpperCases = functionArray.getUpperCases(); // ---> 4
+    var randomUpperCases = functionArray.getUpperCases(); 
     randomPasswordGenerated+=randomUpperCases
   }
 
   if(special === true && randomPasswordGenerated.length < passwordLength) {
-    var randomSpecial = functionArray.getSpecialCharacters(); // ---> 4
+    var randomSpecial = functionArray.getSpecialCharacters(); 
     randomPasswordGenerated+=randomSpecial
   }
   // get a random character from those types
